@@ -40,16 +40,13 @@ class handDetector():
         # get the data for each individual landmark and corresponding id
         if self.results.multi_hand_landmarks:  
             currHand = self.results.multi_hand_landmarks[handNumber]
-
             for id, landmark in enumerate(currHand.landmark):
                 height, width, channels = img.shape
                 centerX = int(landmark.x * width)
                 centerY = int(landmark.y * height)
                 landmarkList.append([id, centerX, centerY])
-
                 if draw:
                     cv2.putText(img, str(id), (centerX, centerY), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 1)
-
         return landmarkList
 
 
@@ -75,7 +72,6 @@ def main():
         prevTime = currTime
 
         # display the webcam - output
-        #img = cv2.flip(img, 1) # flips the output for my own comfort
         cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_COMPLEX, 3, (255, 255, 0), 3)
         cv2.imshow("Image", img)
         cv2.waitKey(1)

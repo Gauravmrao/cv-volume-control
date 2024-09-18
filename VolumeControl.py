@@ -68,6 +68,6 @@ while True:
     prevTime = currTime
     cv2.putText(img, f'FPS: {str(int(fps))}', (10, 40), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 2)
 
-
+    # display the video output
     cv2.imshow("image", img)
     cv2.waitKey(1)
