@@ -56,9 +56,6 @@ This project can be extended in various ways to add more features and increase i
 2. **Cross-platform Compatibility**
    - Currently, the project uses PyCaw, which is specific to Windows systems. Cross-platform compatibility could be achieved by integrating audio libraries like `os` or platform-specific alternatives for Linux and macOS.
 
-3. **Gesture Customization**
-   - Allow users to customize gestures for different actions, making the tool adaptable to individual preferences or needs.
-
 
 ## Social Impact: Enabling Accessibility in Technology
 
