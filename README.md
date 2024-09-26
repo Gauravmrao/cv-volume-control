@@ -37,13 +37,6 @@ MediaPipe is a framework for building multimodal applied machine learning pipeli
 
 MediaPipe was chosen for its state-of-the-art performance in hand tracking and its ability to run efficiently in real-time on various devices.
 
-### 3. **PyCaw** (`pycaw`)
-PyCaw (Python Core Audio Windows Library) provides a way to interact with the Windows Audio API to control system volume programmatically. In this project, it is used to:
-   - Get the current audio device (speakers).
-   - Adjust the system volume based on the user's finger movements.
-
-PyCaw is an excellent choice for this task because it directly integrates with Windows' audio system, allowing smooth and precise volume control.
-
 
 ## Project Outcomes
 
