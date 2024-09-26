@@ -12,7 +12,7 @@ This project demonstrates a Computer Vision-based solution for controlling the v
 
 ## How to Run the Project
 
-1. Install the necessary Python libraries
+1. Install the necessary Python libraries from requirements.txt.
 2. Clone the repository and ensure the custom hand tracking module is properly set up.
 3. Run the Python file, and ensure your webcam is connected and active.
 4. Adjust the system volume by pinching and spreading your thumb and index finger in front of the camera.
